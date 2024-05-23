@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('your-background.jpg'); /* Đặt hình nền */
+    background-size: cover; /* Để hình nền bao phủ toàn bộ màn hình */
+    background-position: center; /* Căn giữa hình nền */
+    background-repeat: no-repeat; /* Không lặp lại hình nền */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.container {
+    text-align: center; /* Căn giữa nội dung bên trong container */
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền trắng với độ trong suốt */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Tùy chỉnh độ rộng nếu cần thiết */
+    max-width: 500px; /* Giới hạn độ rộng tối đa */
+}
+
+.profile-picture {
+    max-width: 100px; /* Điều chỉnh kích thước ảnh nhỏ hơn */
+    height: auto;
+    border-radius: 50%;
+    position: absolute; /* Định vị ảnh */
+    top: 20px; /* Điều chỉnh khoảng cách từ trên xuống */
+    right: 20px; /* Điều chỉnh khoảng cách từ bên phải */
+}
+
+h1 {
+    color: #333;
+    font-size: 36px; /* Tăng kích thước chữ */
+    margin-bottom: 20px;
+    text-align: center; /* Đảm bảo tiêu đề được căn giữa */
+}
+
+p {
+    font-size: 24px; /* Tăng kích thước chữ */
+    color: #666;
+    margin: 10px 0; /* Thêm khoảng cách giữa các đoạn văn */
+    text-align: center; /* Đảm bảo đoạn văn được căn giữa */
+}
